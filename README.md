@@ -31,7 +31,7 @@ Here we used-languages:
 
 You can learn all of those in [w3schools.com](#http://w3schools.com)
 
-
+DO CHECK SCREENSHOT FOLDER FOR BETTER UNDERSTANDING ABOUT THE PROJECT
 
 ## ALPHACODE
 
