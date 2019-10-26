@@ -1,0 +1,523 @@
+/* 
+===================
+===Prerequisites===
+=================== 
+*/
+
+
+
+/* Scroll Behaviour */
+html{
+	scroll-behavior: smooth;
+}
+.active{
+	transform: scale(1.2);
+}
+/* body by default */
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	position: relative;
+	font-family: 'Arial', sans-serif;
+}
+
+body > a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all; /* Internet Explorer */
+}
+a:hover{
+	text-decoration: none;
+}
+
+input[type = "button"], input[type = "submit"]{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all; /* Safari */
+	-moz-transition: 0.5s all; /* Firefox */
+	-o-transition: 0.5s all; /* Opera */
+	-ms-transition: 0.5s all; /* Internet Explorer */
+}
+/* All heading Tags assigned margin 0 */
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 100%;
+}
+.validation{
+	color: darkblue;
+	padding: 4px;
+	background-color: #ccd;
+	width: 200px;
+	margin: 5px 5px;
+}
+/* 
+========================
+===Prerequisites Ends===
+======================== 
+*/
+
+/* ============================================================================ */
+
+/* 
+===================
+===NAVBAR SECTION===
+=================== 
+*/
+
+.blog{
+	background-color: #f1f5ff;
+	height: 100%;
+}
+
+.navbar{
+    background-color: #5e1ddd !important;
+}
+.navbar .navbar-brand{
+    color : #FFF;
+    font-size: 30px;
+    font-family: 'Saira Stencil One', cursive;
+}
+.navbar .navbar-brand i{
+	color : #FFF;
+    font-size: 30px;
+}
+.navbar .navbar-nav{
+    margin : 0 auto;
+}
+.navbar .nav-item a{
+    color: #FFF !important;
+    margin: 0 20px;
+}
+
+.navbar form button{
+    background-color: #f43485;
+    color:#FFF;
+    border:0;
+}
+.navbar form button:hover{
+    background-color: #fff;
+    color: #f43485;
+}
+.active{
+	font-weight: bold;
+}
+.navbar-toggler{
+	background-color: #f43485;
+	color: #fff !important;
+}
+/* 
+=========================
+===NAVBAR SECTION ENDS===
+========================= 
+*/
+/*
+=========================
+=======BLOG SECTION======
+========================= 
+*/
+.title{
+	width: 100%;
+	margin: 30px 10px;
+	background-color: rgba(94, 29, 221, 1);
+	padding: 10px;
+	border-radius: 8px;
+}
+.text-blog{
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Acme', sans-serif;
+}
+.lead-para{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lead-para a{
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.lead-para a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+/* Blog Left bottom Panel */
+
+/* Blog Left bottom Panel ENDS */
+.blog_post{
+	width: 100%;
+	margin: 40px 0;
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.blog-img{
+	width: 100%;
+	height: auto;
+}
+.card-title{
+	font-size: 39px;
+	font-family: 'Acme', sans-serif;
+}
+.blogPara{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 20px;
+}
+.extraText span{
+	margin-right: 20px;
+	font-size: 14px;
+}
+.readMore{
+	background-color: #5E1DDD;
+	margin: 10px 0;
+}
+.readMore:hover{
+	background-color: #fff;
+	color: #5e1ddd;
+	font-weight: bold;
+	font-size: 17px;
+}
+.pagenation{
+	margin: 30px 0;
+}
+.page-link{
+	color: #5e1ddd;font-weight: bold;
+}
+footer{
+	width: 100%;
+	background-color: #5e1ddd;
+	height: 80px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+footer > p{
+	text-align: center;
+	margin: 5px;
+	color: #fff;
+}
+footer > p > a > i{
+	margin: 0 20px;
+	color: #fff;
+}
+
+.panel{
+	margin: 20px auto;
+	padding: 10px;
+	position: relative;
+}
+.panel-heading{
+	font-size: 16px;
+	background-color: #5e1ddd;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5px 5px 0 0;
+	font-family: 'Acme', sans-serif;
+}
+.panel-body{
+	padding: 10px;
+	font-size: 16px;
+	background-color: #E7E5FF;
+	border-radius: 0 0 5px 5px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.panel-body i{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 100px;
+}
+.recent{
+	list-style: none;
+	padding: 10px;
+}
+.recent-items a{
+	text-decoration: none;
+	color: #000;
+}
+.recent-items a:hover{
+	font-weight: bold;
+}
+
+/* 
+Single Blog Post
+ */
+.comment-section{
+	padding: 20px;
+	margin-top: 30px;
+}
+.legend{
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+}
+.form-group{
+	width: 70%;
+}
+.submit{
+	background-color: #5E1DDD;
+	margin: 0 6px;
+}
+.submit:hover{
+	background-color: #fff;
+	color: #5e1ddd;
+	font-weight: bold;
+	font-size: 17px;
+}
+.comments{
+	background-color: #222;
+	padding: 10px;
+	margin: 30px 0;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.comment-1{
+	color: #fff;
+	padding: 5px;
+	margin: 5px 8px 0 0;
+}
+.comments-heading{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	font-family: 'Acme', sans-serif;
+}
+.comments-mail{
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.user{
+	padding: 20px;
+}
+.user i{
+	color: #fff;
+	font-size: 40px;
+}
+
+ /* 
+ Single Blog Post ENDS */
+/*
+=========================
+===BLOG SECTION ENDS=====
+========================= 
+
+*/
+
+/*
+=========================
+===ABOUT US SECTION======
+=========================
+*/
+
+.team{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.teamTitle{
+	font-size: 20px;
+	text-align: center;
+}
+.team-img{
+	width: 100%;
+}
+
+
+.aboutContent{
+	padding: 15px;
+	background-color: #CDC5F7;
+}
+.aboutContent p{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: justify;
+	font-family: 'Arial', sans-serif;
+}
+
+.social{
+	text-align: center;
+}
+.social i{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 0 7px;
+}
+.social i:hover{
+	transform: scale(1.4);
+	transition: 0.3s all;
+}
+.linkedin{
+	color: #0077B5;
+}
+.facebook{
+	color: #3b5998;
+}
+.github{
+	color: #4078c0;
+}
+/*
+=============================
+===ABOUT US SECTION ENDS=====
+=============================
+*/
+
+
+/*
+==========================
+===CONTACT US SECTION=====
+==========================
+*/
+
+.contact-section{
+	padding: 10px;
+}
+.contactHeading{
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+.contact-section input[type="text"]{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.contact-section input[type="email"]{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+.contact-section textarea{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+
+
+
+.address{
+	margin: 0 auto;
+}
+.cont-panel{
+	padding: 5px;
+	text-decoration: none;
+}
+.cont-panel h6{
+	font-weight: bold;
+	font-size: 19px;
+}
+.cont-panel p{
+	color: #222;
+	margin: 4px 0;
+}
+.cont-panel p a{
+	color: #222;
+}
+.cont-panel p a:hover{
+	text-decoration: underline;
+}
+.maps{
+	width: 100%;
+	height: 200px;
+}
+/*
+===============================
+===CONTACT US SECTION ENDS=====
+===============================
+*/
+
+
+
+/*
+==========================
+===LOGIN SECTION=====
+==========================
+*/
+
+
+.login-title{
+	text-align: center;
+	color: #111;
+	font-weight: bold;
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 60px;
+}
+.formcard{
+	border: none;
+	background-color: #5E1DDD;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.login-heading{
+	color: #fff;
+	font-family: 'Acme', sans-serif;
+	font-size: 25px;
+}
+.login{
+	color: #5E1DDD;
+	background-color: #fff;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+.login:hover{
+	transform: scale(1.1);
+	color: #5E1DDD;
+	background-color: #fff;
+}
+
+/*
+===============================
+===LOGIN SECTION ENDS=====
+===============================
+*/
+
+
+/*
+==========================
+===ADMIN SECTION=====
+==========================
+*/
+
+.sidebar ul{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	background-color: #111;
+	height: 100%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.3), 0 6px 6px rgba(0,0,0,0.4);
+}
+.sidebar-heading{
+	text-align: center;
+	color: #111;
+	font-weight: bold;
+	font-family: 'Saira Stencil One', cursive;
+	font-size: 40px;
+	padding: 10px;
+}
+.links-sidebar{
+	color: #fff;
+}
+
+.post-heading{
+	color: #111;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+	padding: 10px;
+}
+.content{
+	padding: 10px;
+}
+.content form .form-group{
+	width: 100%;
+}
+td{
+	text-align: justify;
+}
+/*
+===============================
+===ADMIN SECTION ENDS=====
+===============================
+*/
